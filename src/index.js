@@ -12,14 +12,14 @@ const animalsData = [
   { animal: "platypus", type: "mammal" },
 ];
 
-export function sortAnimals() {
+export function sortAnimals(animalsData) {
   //This will trigger a Bug warning
   animalsData.sort();
 
   //This will trigger a Security Hotspot warning
   Math.floor(2 * Math.random());
 
-  if (animalsData.length % 2 == 1) {
+  if (animalsData.length % 2 === 1) {
     //This will trigger a Code Smell
     animalsData.splice(1);
   }
