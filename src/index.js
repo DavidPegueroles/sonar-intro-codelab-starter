@@ -9,6 +9,7 @@ const animalsData = [
   { animal: "dolphin", type: "mammal" },
   { animal: "snake", type: "reptile" },
   { animal: "frog", type: "amphibian" },
+  { animal: "platypus", type: "mammal" },
 ];
 
 export function sortAnimals() {
