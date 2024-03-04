@@ -20,7 +20,7 @@ export function sortAnimals() {
 
   if (animalsData.length % 2 == 1) {
     //This will trigger a Code Smell
-    delete animalsData[1];
+    animalsData.splice(1);
   }
 
   return animalsData;
